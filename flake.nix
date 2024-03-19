@@ -18,6 +18,7 @@
           ];
 
           virtualisation.host = { inherit pkgs; };
+          virtualisation.darwin-builder.allowRoot = nixpkgs.lib.mkForce true;
           virtualisation.darwin-builder.cores = nixpkgs.lib.mkForce 8;
           virtualisation.darwin-builder.hostAddress = nixpkgs.lib.mkForce "127.0.0.1";
           virtualisation.darwin-builder.hostPort = nixpkgs.lib.mkForce 2222;
