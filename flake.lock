@@ -2,18 +2,17 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1710868012,
-        "narHash": "sha256-WNFTpmwIY9MvaI5iAWVJxAXuG6meoeO017tn7ZJWFH8=",
-        "owner": "cpick",
-        "repo": "nixpkgs",
-        "rev": "05c6e399a7e7787bfb95ee6a1994911d4f40edb8",
-        "type": "github"
+        "lastModified": 1724257416,
+        "narHash": "sha256-UGO5G7UUctvyi3UNSdDci6NR+egVOFOy8w8QYcwTNAM=",
+        "ref": "refs/heads/macos-builder-options",
+        "rev": "ed550988ac25adea34c44043eeeca28be355cbce",
+        "revCount": 669701,
+        "type": "git",
+        "url": "file:///Users/cpick/src/nixpkgs"
       },
       "original": {
-        "owner": "cpick",
-        "ref": "macos-builder-options",
-        "repo": "nixpkgs",
-        "type": "github"
+        "type": "git",
+        "url": "file:///Users/cpick/src/nixpkgs"
       }
     },
     "root": {
