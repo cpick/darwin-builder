@@ -4,15 +4,16 @@
       "locked": {
         "lastModified": 1724257416,
         "narHash": "sha256-UGO5G7UUctvyi3UNSdDci6NR+egVOFOy8w8QYcwTNAM=",
-        "ref": "refs/heads/macos-builder-options",
+        "owner": "cpick",
+        "repo": "nixpkgs",
         "rev": "ed550988ac25adea34c44043eeeca28be355cbce",
-        "revCount": 669701,
-        "type": "git",
-        "url": "file:///Users/cpick/src/nixpkgs"
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:///Users/cpick/src/nixpkgs"
+        "owner": "cpick",
+        "ref": "macos-builder-options",
+        "repo": "nixpkgs",
+        "type": "github"
       }
     },
     "root": {
