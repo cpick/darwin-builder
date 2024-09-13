@@ -10,16 +10,7 @@ If a new .iso needs to be generated then a x86_64-linux builder is required.
 This also appears to need to be one of the `--builders` (haven't found a working way to set it as
 a `--store` {with or without an `--eval-store`}).
 
-## VM Configuration
+## Missing `nix` command
 
-Enable flakes:
-```sh
-mkdir -p ~/.config/nix
-echo 'experimental-features = nix-command flakes' >>~/.config/nix/nix.conf
-```
-
-Use vi mode:
-```sh
-echo 'set -o vi' >>~/.bashrc
-echo '. ~/.bashrc' >>~/.bash_profile
-```
+The default darwin.linux-builder [has removed](https://github.com/NixOS/nixpkgs/pull/268574)  the
+`nix` command.  Use [a separate VM](https://github.com/cpick/nix-vm) when that's needed.
