@@ -27,11 +27,9 @@
       };
 
     in {
-
-      packages.x86_64-darwin.builder =
-        nixos.config.system.build.macos-builder-installer;
-
-      packages.x86_64-darwin.default = self.packages.x86_64-darwin.builder;
-
+      packages.${system} = {
+        builder = nixos.config.system.build.macos-builder-installer;
+        default = self.packages.${system}.builder;
+      };
     };
 }
