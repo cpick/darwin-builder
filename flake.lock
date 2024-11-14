@@ -2,16 +2,16 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1724257416,
-        "narHash": "sha256-UGO5G7UUctvyi3UNSdDci6NR+egVOFOy8w8QYcwTNAM=",
+        "lastModified": 1731622062,
+        "narHash": "sha256-2C8IGFdLRikgXc9Re5E6FyX4KHXnoU2UIPFARbVRhOE=",
         "owner": "cpick",
         "repo": "nixpkgs",
-        "rev": "ed550988ac25adea34c44043eeeca28be355cbce",
+        "rev": "56a11af0a09cf5f066793c3842e2128177414cac",
         "type": "github"
       },
       "original": {
         "owner": "cpick",
-        "ref": "macos-builder-options",
+        "ref": "nix-builder-vm-options",
         "repo": "nixpkgs",
         "type": "github"
       }

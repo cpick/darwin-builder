@@ -2,7 +2,7 @@
   description = "Local-only, beefier Darwin builder";
 
   inputs = {
-    nixpkgs.url = "github:cpick/nixpkgs/macos-builder-options";
+    nixpkgs.url = "github:cpick/nixpkgs/nix-builder-vm-options";
   };
 
   outputs = { self, nixpkgs }:
@@ -14,7 +14,7 @@
       nixos = import "${nixpkgs}/nixos" {
         configuration = {
           imports = [
-            "${nixpkgs}/nixos/modules/profiles/macos-builder.nix"
+            "${nixpkgs}/nixos/modules/profiles/nix-builder-vm.nix"
           ];
 
           virtualisation.host = { inherit pkgs; };
